@@ -279,6 +279,7 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "creepy stalker";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
+
 			case 24: //Me Gusta
 			document.body.style.backgroundImage = "url('images/me_gusta.jpg')";
 			document.getElementById("a").innerHTML = "Potato Head";
