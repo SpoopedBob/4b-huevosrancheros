@@ -21,7 +21,7 @@ function changeMeme(){
 	document.getElementById("d").removeEventListener("click", wrongAnswer);
 	
 	
-	var rand = Math.ceil(Math.random() * 30);
+	var rand = Math.ceil(Math.random() * 35);
 	//alert("choosing meme #" + rand);
 	switch(rand) {
 		case 1: //Ugandan Knuckles
@@ -389,26 +389,26 @@ function changeMeme(){
 			document.getElementById("d").innerHTML = "Me Everyday";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-					case 34: //
-			document.body.style.backgroundImage = "url('images/')";
-			document.getElementById("a").innerHTML = "";
+					case 34: //Sponge Gar
+			document.body.style.backgroundImage = "url('images/spongegar.jpg')";
+			document.getElementById("a").innerHTML = "big mouth bob";
 			document.getElementById("a").addEventListener("click", wrongAnswer);
-			document.getElementById("b").innerHTML = "";
+			document.getElementById("b").innerHTML = "Sponge gar";
 			document.getElementById("b").addEventListener("click", rightAnswer);
-			document.getElementById("c").innerHTML = "";
+			document.getElementById("c").innerHTML = "Evil spongebob";
 			document.getElementById("c").addEventListener("click", wrongAnswer);
-			document.getElementById("d").innerHTML = "";
+			document.getElementById("d").innerHTML = "Y did this happen to me";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
-					case 35: //
-			document.body.style.backgroundImage = "url('images/')";
-			document.getElementById("a").innerHTML = "";
-			document.getElementById("a").addEventListener("click", wrongAnswer);
-			document.getElementById("b").innerHTML = "";
-			document.getElementById("b").addEventListener("click", rightAnswer);
-			document.getElementById("c").innerHTML = "";
+					case 35: //Dudden clarity clarence
+			document.body.style.backgroundImage = "url('images/sudden_clarity_clarence.jpg')";
+			document.getElementById("a").innerHTML = "Sudden clarity clarence";
+			document.getElementById("a").addEventListener("click", rightAnswer);
+			document.getElementById("b").innerHTML = "Expanding brain";
+			document.getElementById("b").addEventListener("click", wrongAnswer);
+			document.getElementById("c").innerHTML = "Mr. unbelievable";
 			document.getElementById("c").addEventListener("click", wrongAnswer);
-			document.getElementById("d").innerHTML = "";
+			document.getElementById("d").innerHTML = "Brain to brain";
 			document.getElementById("d").addEventListener("click", wrongAnswer);
 			break;
 	} // end switch
